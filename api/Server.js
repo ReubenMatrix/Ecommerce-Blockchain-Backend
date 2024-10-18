@@ -26,8 +26,8 @@ app.use(bodyParser.json());
 
 
 
-const accountSid = 'AC802fec99b3d95a9b0c020b18211c320c'; 
-const authToken = 'e7cf955f64505334510394ca306e1ea0';  
+const accountSid = ''; 
+const authToken = '';  
 const twilioClient = twilio(accountSid, authToken);
 
 
